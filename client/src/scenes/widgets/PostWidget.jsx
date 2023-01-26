@@ -40,7 +40,7 @@ export const PostWidget = ({
 
     const patchLike = async () => {
         try {
-            const responce = await fetch(`https://sociomedia-app.onrender.com/posts/${postId}/like`, {
+            const responce = await fetch(`https://sociomedia-caax.onrender.com/posts/${postId}/like`, {
                 method: "PATCH",
                 headers: {
                     Authorization: `Bearer ${token}`,
@@ -74,7 +74,7 @@ export const PostWidget = ({
                     height='auto'
                     alt='post'
                     style={{ borerRadius: "0.75rem", marginTop: "0.75rem" }}
-                    src={`https://sociomedia-app.onrender.com/assets/${picturePath}`}
+                    src={`https://sociomedia-caax.onrender.com/assets/${picturePath}`}
                 />
             )}
             <FlexBetween mt='0.25rem'>

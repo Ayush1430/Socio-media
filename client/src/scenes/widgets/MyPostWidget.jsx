@@ -48,7 +48,7 @@ export const MyPostWidget = ({picturePath}) => {
             formData.append("picturePath", image.name);
         }
         try {
-            const responce = await fetch('https://sociomedia-app.onrender.com/posts', {
+            const responce = await fetch('https://sociomedia-caax.onrender.com/posts', {
                 method: "POST",
                 headers: {
                     Authorization: `Bearer ${token}`

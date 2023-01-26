@@ -11,7 +11,7 @@ export const PostsWidget = ({ userId, isProfile = false }) => {
 
     const getPosts = async () => {
         try {
-            const responce = await fetch('https://sociomedia-app.onrender.com/posts', {
+            const responce = await fetch('https://sociomedia-caax.onrender.com/posts', {
                 method: "GET",
                 headers: {
                     Authorization: `Bearer ${token}`
@@ -28,7 +28,7 @@ export const PostsWidget = ({ userId, isProfile = false }) => {
 
     const getUserPosts = async () => {
         try {
-            const responce = await fetch(`https://sociomedia-app.onrender.com/posts/${userId}/posts`, {
+            const responce = await fetch(`https://sociomedia-caax.onrender.com/posts/${userId}/posts`, {
                 method: "GET",
                 headers: {
                     Authorization: `Bearer ${token}`

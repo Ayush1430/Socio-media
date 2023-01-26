@@ -25,7 +25,7 @@ export const UserWidget = ({ userId, picturePath }) => {
     const getUser = async () => {
         try {
             
-            const response = await fetch(`https://sociomedia-app.onrender.com/users/${userId}`, {
+            const response = await fetch(`https://sociomedia-caax.onrender.com/users/${userId}`, {
                 method: "GET",
                 headers: {
                     Authorization: `Bearer ${token}`

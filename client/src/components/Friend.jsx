@@ -30,7 +30,7 @@ export const Friend = ({friendId,name,subtitle,userPicturePath}) => {
 
     const patchFriend = async () => {
         try {
-            const responce = await fetch(`https://sociomedia-app.onrender.com/users/${_id}/${friendId}`, {
+            const responce = await fetch(`https://sociomedia-caax.onrender.com/users/${_id}/${friendId}`, {
                 method: "PATCH",
                 headers: {
                     Authorization: `Bearer ${token}`,

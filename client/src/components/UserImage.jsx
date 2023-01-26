@@ -11,7 +11,7 @@ export const UserImage = ({ image, size = "60px" }) => {
                 alt='user'
                 height={size}
                 width={size}
-                src={`https://sociomedia-app.onrender.com/assets/${image}`}
+                src={`https://sociomedia-caax.onrender.com/assets/${image}`}
             />
         </Box>
     );
